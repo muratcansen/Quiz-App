@@ -10,7 +10,7 @@ Soru.prototype.cevabiKontrolEt = function(cevap) {
 
 let sorular = [
     new Soru("1-Hangisi javascript paket yönetim uygulasıdır?", { a: "Node.js", b: "Typescript", c: "Npm" , d: "Nuget" }, "c"),
-    new Soru("2-Hangisi frontend kapsamında değerlendirilmez?", { a: "css", b: "html", c: "javascipt", d: "sql" }, "d"),
-    new Soru("3-Hangisi backend kapsamında değerlendirilir?", { a: "node.js", b: "typescript", c: "angular", d: "react" }, "a"),
-    new Soru("4-Hangisi javascript programlama dilini kullanmaz?", { a: "react", b: "angular", c: "vuejs", d: "asp.net" }, "d")
+    new Soru("2-Hangisi frontend kapsamında değerlendirilmez?", { a: "Css", b: "Html", c: "Javascipt", d: "Sql" }, "d"),
+    new Soru("3-Hangisi backend kapsamında değerlendirilir?", { a: "Node.js", b: "Typescript", c: "Angular", d: "React" }, "a"),
+    new Soru("4-Hangisi javascript programlama dilini kullanmaz?", { a: "React", b: "Angular", c: "Vuejs", d: "Asp.net" }, "d")
 ];
