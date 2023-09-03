@@ -36,7 +36,7 @@ UI.prototype.soruGoster = function(soru) {
 }
 
 UI.prototype.soruSayisiniGoster = function(soruSirasi, toplamSoru) {
-    let tag = `<span class="badge bg-warning">${soruSirasi} / ${toplamSoru}</span>`;
+    let tag = `<span class="badge " style="color: whitesmoke;background: #4f00cf;">${soruSirasi} / ${toplamSoru}</span>`;
     document.querySelector(".quiz_box .question_index").innerHTML = tag;
 }
 

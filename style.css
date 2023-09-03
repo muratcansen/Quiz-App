@@ -101,7 +101,7 @@
 .quiz_box header .timer {
     display: flex;
     align-items: center;
-    background: #143F68;
+    background: #4f00cf;
     color: #fff;
     padding: 5px;
     border-radius: 3px;
@@ -127,7 +127,7 @@
     left: 0;
     height: 4px;
     /* width: 550px;  0 - 500 */
-    background: #F0A500;
+    background: #4f00cf;
 }
 
 /* score box */
@@ -145,14 +145,14 @@
     padding: 30px;
 
     transform: translate(-50%, -50%) scale(0.7);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 
     opacity: 0;
     pointer-events: none;
 }
 
 .score_box .icon {
-    font-size: 90px;
+    font-size: 60px;
     color: #4f00cf;
     margin-bottom: 10px;
 }
